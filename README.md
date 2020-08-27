@@ -34,4 +34,4 @@ Está es una aplicación creada con el fin de dar una introducción a **JS** y p
 ### 📎 Pasos para ejecutar la Calculadora
 
 1. Descargar el codigo completo
-2. Abra el archivo **idex.html** que esta dentro de la carpeta **pages**
+2. Abra el archivo **index.html** que esta dentro de la carpeta **pages**
