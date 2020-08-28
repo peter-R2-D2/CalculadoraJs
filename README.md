@@ -12,15 +12,11 @@ Está es una aplicación creada con el fin de dar una introducción a **JS** y p
 
 ### 📎 Temas a resolver en la aplicación
 
-[ ] Crear los archivos a utilizar
-
-[ ] Crear la estructura html
-
-[ ] Referenciar los archivos y funtes externas
-
-[ ] Crear el input( pantalla de la calculadora )
-
-[ ] Estilos de la aplicacion y herramientas para utilizar
+[ ] Crear los archivos a utilizar  
+[ ] Crear la estructura html  
+[ ] Referenciar los archivos  
+[ ] Crear el input( pantalla de la calculadora )  
+[ ] Estilos de la aplicacion y herramientas para utilizar  
 
 ### 📎 Capetas dentro de la aplicacion
 
@@ -34,4 +30,4 @@ Está es una aplicación creada con el fin de dar una introducción a **JS** y p
 ### 📎 Pasos para ejecutar la Calculadora
 
 1. Descargar el codigo completo
-2. Abra el archivo **index.html** que esta dentro de la carpeta **pages**
+2. Abra el archivo **index.html**
