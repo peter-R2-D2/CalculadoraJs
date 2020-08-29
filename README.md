@@ -11,7 +11,9 @@
 
 ### 📎 Descripción
 
-Está es una aplicación creada con el fin de dar una introducción a **JS** y poder ayudar a los principiantes a conocer el lenguaje. La lógica es muy simple con el mínimo de líneas de código posibles
+Está es una aplicación creada con el fin de dar una introducción a **JS** y poder ayudar a los principiantes a conocer el lenguaje. La lógica es muy simple con el mínimo de líneas de código posibles.
+
+> Puedes probar la aplicación dando click sobre este **[link](https://pedrofariassosa.github.io/CalculadoraJs/)**
 
 ### 📎 Temas a resolver en la aplicación
 
