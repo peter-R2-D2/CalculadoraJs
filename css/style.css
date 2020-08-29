@@ -1,3 +1,14 @@
+:root {
+    --bg-color: #091921;
+    --bg-screen: #ffffff;
+    --color-screen: #000000;
+}
+/* Valores para el cambio del tema */
+[data-theme = "blanco"] {
+    --bg-color: #ffffff;
+    --bg-screen: #000000;
+    --color-screen: #ffffff;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +19,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #091921;
+    background-color: var(--bg-color);
 }
 .calculadora {
     position: relative;
     display: grid;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .calculadora .value {
     grid-column: span 4;
@@ -22,6 +34,8 @@ body {
     outline: none;
     padding: 10px;
     font-size: 18px;
+    background-color: var(--bg-screen);
+    color: var(--color-screen);
 }
 .calculadora span {
     display: grid;
@@ -50,4 +64,55 @@ body {
 }
 .clear, .op, .num, .igual {
     cursor: pointer;
+}
+
+/* Cambio de tema */
+.temas {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tema-switch {
+    display: block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+    margin: 0 auto;
+}
+.tema-switch input {
+    display: none;
+}
+.slider {
+    background-color: #03b1ff;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    transition: .4s all ease;
+}
+.slider::before {
+    background-color: #ffffff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s all;
+    width: 26px;
+}
+
+input:checked + .slider {
+    background-color: #ff3077;
+}
+input:checked + .slider::before {
+    transform: translateX(26px);
+}
+.slider.round {
+    border-radius: .25rem;
+}
+.slider.round::before {
+    border-radius: .25rem;
 }

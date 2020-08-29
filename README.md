@@ -25,6 +25,13 @@ Está es una aplicación creada con el fin de dar una introducción a **JS** y p
 [ ] Creacion de los event listeners  
 [ ] Creacion de las funciones  
 
+#### Adicional de le agregara un boton para poder cambiar de tema
+
+[ ] Creacion la seccion para el boton el html  
+[ ] Custom properties  
+[ ] Estilos del boton para el tema  
+[ ] Creacion de un archivo JS para los temas  
+
 
 ### 📎 Capetas dentro de la aplicacion
 
@@ -33,6 +40,7 @@ Está es una aplicación creada con el fin de dar una introducción a **JS** y p
     - style.css
 * js:
     - app.js
+    - theme.js
 
 ### 📎 Pasos para ejecutar la Calculadora
 
